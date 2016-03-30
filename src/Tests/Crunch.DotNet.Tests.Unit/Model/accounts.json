@@ -1,0 +1,23 @@
+﻿{
+  "bankAccounts": [
+    {
+      "accountId": 304,
+      "accountNumber": "98764321",
+      "account": "Main Business Account"
+    },
+    {
+      "accountId": 305,
+      "accountNumber": "98768765",
+      "account": "Savings Account"
+    }
+  ],
+  "creditCards": [
+    {
+      "accountId": 125,
+      "lastFourDigits": 4321,
+      "account": "Business Visa"
+    }
+  ],
+  "paymentProcessingAccounts": [],
+  "count": 3
+}

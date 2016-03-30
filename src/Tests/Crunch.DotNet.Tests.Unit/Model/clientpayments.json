@@ -1,0 +1,497 @@
+﻿{
+  "count": 23,
+  "firstResult": 0,
+  "clientPayment": [
+    {
+      "paymentDate": "2015-01-11",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 5575,
+      "clientPaymentId": 9633,
+      "currency": "USD",
+      "client": {
+        "clientId": 1304,
+        "name": "string"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 3599,
+            "resourceUrl": "/v2/salesinvoices/3599",
+            "allocatedAmount": 1
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/9633"
+    },
+    {
+      "paymentDate": "2015-01-11",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 5575,
+      "clientPaymentId": 9632,
+      "currency": "USD",
+      "client": {
+        "clientId": 1304,
+        "name": "string"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 3599,
+            "resourceUrl": "/v2/salesinvoices/3599",
+            "allocatedAmount": 75
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/9632"
+    },
+    {
+      "paymentDate": "2015-01-11",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 75,
+      "clientPaymentId": 9631,
+      "currency": "USD",
+      "client": {
+        "clientId": 1304,
+        "name": "string"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 3599,
+            "resourceUrl": "/v2/salesinvoices/3599",
+            "allocatedAmount": 75
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/9631"
+    },
+    {
+      "paymentDate": "2014-04-07",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 21.6,
+      "clientPaymentId": 11704,
+      "currency": "GBP",
+      "client": {
+        "clientId": 1304,
+        "name": "string"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 3599,
+            "resourceUrl": "/v2/salesinvoices/3599",
+            "allocatedAmount": 21.6
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/11704"
+    },
+    {
+      "paymentDate": "2014-04-07",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 21.6,
+      "clientPaymentId": 11702,
+      "currency": "GBP",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/11702"
+    },
+    {
+      "paymentDate": "2014-04-07",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 21.6,
+      "clientPaymentId": 11701,
+      "currency": "GBP",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/11701"
+    },
+    {
+      "paymentDate": "2014-03-07",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 21.6,
+      "clientPaymentId": 11703,
+      "currency": "GBP",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/11703"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4593,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4593"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4592,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4592"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4591,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4591"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4590,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4590"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4589,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4589"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4588,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4588"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4587,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4587"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4586,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4586"
+    },
+    {
+      "paymentDate": "2013-12-10",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 40,
+      "clientPaymentId": 4585,
+      "currency": "USD",
+      "client": {
+        "clientId": 927,
+        "name": "Astral Communications Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4585"
+    },
+    {
+      "paymentDate": "2013-07-02",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 3500,
+      "clientPaymentId": 4552,
+      "currency": "GBP",
+      "client": {
+        "clientId": 933,
+        "name": "Helicopter Crisp Ltd"
+      },
+      "resourceUrl": "/v2/client_payments/4552"
+    },
+    {
+      "paymentDate": "2013-07-02",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 3500,
+      "clientPaymentId": 3470,
+      "currency": "GBP",
+      "client": {
+        "clientId": 933,
+        "name": "Helicopter Crisp Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1359,
+            "resourceUrl": "/v2/salesinvoices/1359",
+            "allocatedAmount": 3500
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3470"
+    },
+    {
+      "paymentDate": "2013-06-25",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 3250,
+      "clientPaymentId": 3469,
+      "currency": "GBP",
+      "client": {
+        "clientId": 932,
+        "name": "Pinknoodle Consultants Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1358,
+            "resourceUrl": "/v2/salesinvoices/1358",
+            "allocatedAmount": 3250
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3469"
+    },
+    {
+      "paymentDate": "2013-06-18",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 3000,
+      "clientPaymentId": 3468,
+      "currency": "GBP",
+      "client": {
+        "clientId": 931,
+        "name": "Couldn't Be Better Consultancy Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1357,
+            "resourceUrl": "/v2/salesinvoices/1357",
+            "allocatedAmount": 3000
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3468"
+    },
+    {
+      "paymentDate": "2013-06-11",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 2750,
+      "clientPaymentId": 3467,
+      "currency": "GBP",
+      "client": {
+        "clientId": 930,
+        "name": "Totally Happening Today Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1356,
+            "resourceUrl": "/v2/salesinvoices/1356",
+            "allocatedAmount": 2750
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3467"
+    },
+    {
+      "paymentDate": "2013-06-04",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 2500,
+      "clientPaymentId": 3466,
+      "currency": "GBP",
+      "client": {
+        "clientId": 929,
+        "name": "Compass Technologies Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1355,
+            "resourceUrl": "/v2/salesinvoices/1355",
+            "allocatedAmount": 2500
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3466"
+    },
+    {
+      "paymentDate": "2013-05-28",
+      "paymentMethod": "EFT",
+      "bankAccount": {
+        "accountId": 304,
+        "accountNumber": "98764321",
+        "account": "Main Business Account"
+      },
+      "amount": 2250,
+      "clientPaymentId": 3465,
+      "currency": "GBP",
+      "client": {
+        "clientId": 928,
+        "name": "Blue Ribbon Solutions Ltd"
+      },
+      "salesInvoices": {
+        "count": 1,
+        "salesInvoice": [
+          {
+            "salesInvoiceId": 1354,
+            "resourceUrl": "/v2/salesinvoices/1354",
+            "allocatedAmount": 2250
+          }
+        ]
+      },
+      "resourceUrl": "/v2/client_payments/3465"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+﻿{
+  "expenseGroup": [
+    {
+      "count": 11,
+      "groupName": "GENERAL_ADMIN_EXPENSES",
+      "displayName": "General Administrative Expenses",
+      "expenseTypes": [
+        {
+          "displayName": "Company Telephone",
+          "expenseType": "TELEPHONE"
+        },
+        {
+          "displayName": "Use of Personal Telephone",
+          "expenseType": "PERSONAL_TELEPHONE"
+        },
+        {
+          "displayName": "Internet",
+          "expenseType": "INTERNET"
+        },
+        {
+          "displayName": "Employers Liability Insurance",
+          "expenseType": "EMPLOYERS_LIABILITY_INSURANCE"
+        },
+        {
+          "displayName": "Computer Consumables",
+          "expenseType": "COMPUTER_CONSUMABLES"
+        },
+        {
+          "displayName": "Printing, Postage and Stationery",
+          "expenseType": "PRINTING_POSTAGE_STATIONERY"
+        },
+        {
+          "displayName": "Hire of Equipment",
+          "expenseType": "HIRE_OF_EQUIPMENT"
+        },
+        {
+          "displayName": "Professional Subscriptions",
+          "expenseType": "PROFESSIONAL_SUBSCRIPTIONS"
+        },
+        {
+          "displayName": "General Insurance",
+          "expenseType": "GENERAL_INSURANCE"
+        },
+        {
+          "displayName": "Software",
+          "expenseType": "SOFTWARE"
+        },
+        {
+          "displayName": "Web Hosting / Cloud Services",
+          "expenseType": "WEB_HOSTING_CLOUD_SERVICES"
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "groupName": "TRAVEL_SUBSISTENCE",
+      "displayName": "Travel and Subsistence",
+      "expenseTypes": [
+        {
+          "displayName": "Public Transport and Taxis",
+          "expenseType": "PUBLIC_TRANSPORT"
+        },
+        {
+          "displayName": "Subsistence (not entertaining)",
+          "expenseType": "SUBSISTENCE"
+        },
+        {
+          "displayName": "Parking and Tolls",
+          "expenseType": "PARKING_AND_TOLLS"
+        },
+        {
+          "displayName": "Vehicle Rentals",
+          "expenseType": "VEHICLE_RENTALS"
+        },
+        {
+          "displayName": "UK Accommodation",
+          "expenseType": "UK_ACCOMMODATION"
+        },
+        {
+          "displayName": "Overseas Travel",
+          "expenseType": "OVERSEAS_TRAVEL"
+        }
+      ]
+    },
+    {
+      "count": 5,
+      "groupName": "ADVERTISING_PROMOTION_ENTERTAINMENT",
+      "displayName": "Promotion and Entertainment",
+      "expenseTypes": [
+        {
+          "displayName": "Advertising",
+          "expenseType": "ADVERTISING"
+        },
+        {
+          "displayName": "Promotion",
+          "expenseType": "PROMOTION"
+        },
+        {
+          "displayName": "Entertaining",
+          "expenseType": "ENTERTAINING"
+        },
+        {
+          "displayName": "Gifts",
+          "expenseType": "GIFTS"
+        },
+        {
+          "displayName": "Event Hosting / Venue Hire",
+          "expenseType": "EVENT_HOSTING"
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "groupName": "PREMISES_COSTS",
+      "displayName": "Premises Costs",
+      "expenseTypes": [
+        {
+          "displayName": "Rent",
+          "expenseType": "RENT"
+        },
+        {
+          "displayName": "Rates",
+          "expenseType": "RATES"
+        },
+        {
+          "displayName": "Insurance",
+          "expenseType": "INSURANCE"
+        },
+        {
+          "displayName": "Utilities",
+          "expenseType": "UTILITIES"
+        },
+        {
+          "displayName": "Cleaning",
+          "expenseType": "CLEANING"
+        },
+        {
+          "displayName": "Use of Own Premises",
+          "expenseType": "USE_OF_OWN_PREMISES"
+        }
+      ]
+    },
+    {
+      "count": 7,
+      "groupName": "MOTOR_EXPENSES",
+      "displayName": "Motor Expenses",
+      "expenseTypes": [
+        {
+          "displayName": "Mileage Allowance",
+          "expenseType": "MILEAGE_ALLOWANCE"
+        },
+        {
+          "displayName": "Motor Vehicle Running Costs",
+          "expenseType": "MOTOR_VEHICLE_RUNNING_COSTS"
+        },
+        {
+          "displayName": "Company Van Running Costs",
+          "expenseType": "COMPANY_VAN_RUNNING_COSTS"
+        },
+        {
+          "displayName": "Company Motorcycle Running Costs",
+          "expenseType": "COMPANY_MOTORCYCLE_RUNNING_COSTS"
+        },
+        {
+          "displayName": "Company Bicycle Running Costs",
+          "expenseType": "COMPANY_BICYCLE_RUNNING_COSTS"
+        },
+        {
+          "displayName": "Fuel",
+          "expenseType": "FUEL"
+        },
+        {
+          "displayName": "Vehicle Licence",
+          "expenseType": "VEHICLE_LICENCE"
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "groupName": "FIXED_ASSETS",
+      "displayName": "Fixed Assets",
+      "expenseTypes": [
+        {
+          "displayName": "Fixtures and Fittings Cost",
+          "expenseType": "FIXTURES_AND_FITTINGS_COST"
+        },
+        {
+          "displayName": "Equipment Cost",
+          "expenseType": "EQUIPMENT_COST"
+        },
+        {
+          "displayName": "Motor Vehicles Cost",
+          "expenseType": "MOTOR_VEHICLES_COST"
+        },
+        {
+          "displayName": "Intangibles Cost",
+          "expenseType": "INTANGIBLES_COST"
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "groupName": "REPAIRS_AND_RENEWALS",
+      "displayName": "Repairs and Renewals",
+      "expenseTypes": [
+        {
+          "displayName": "Maintenance",
+          "expenseType": "MAINTENANCE"
+        },
+        {
+          "displayName": "Low Value Equipment",
+          "expenseType": "EQUIPMENT"
+        }
+      ]
+    },
+    {
+      "count": 6,
+      "groupName": "LEGAL_AND_PROFESSIONAL_COSTS",
+      "displayName": "Legal and Professional Costs",
+      "expenseTypes": [
+        {
+          "displayName": "Legal Fees",
+          "expenseType": "LEGAL_FEES"
+        },
+        {
+          "displayName": "Accountancy",
+          "expenseType": "ACCOUNTANCY"
+        },
+        {
+          "displayName": "Accountancy - Self Assessment/References",
+          "expenseType": "ACCOUNTANCY_SELF_ASSESSMENT"
+        },
+        {
+          "displayName": "Company Formation Costs",
+          "expenseType": "COMPANY_FORMATION_COSTS"
+        },
+        {
+          "displayName": "Beneficiary & Trust Payments",
+          "expenseType": "BENEFICIARY_TRUST_PAYMENTS"
+        },
+        {
+          "displayName": "Annual Return",
+          "expenseType": "ANNUAL_RETURN"
+        }
+      ]
+    },
+    {
+      "count": 4,
+      "groupName": "FINANCE",
+      "displayName": "Finance",
+      "expenseTypes": [
+        {
+          "displayName": "Bank Charges",
+          "expenseType": "BANK_CHARGES"
+        },
+        {
+          "displayName": "Bank Interest",
+          "expenseType": "BANK_INTEREST"
+        },
+        {
+          "displayName": "Alternative Finance Payments",
+          "expenseType": "ALTERNATIVE_FINANCE_PAYMENTS"
+        },
+        {
+          "displayName": "Other Finance Charges",
+          "expenseType": "OTHER_FINANCE_CHARGES"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "groupName": "PENALTIES",
+      "displayName": "Penalties",
+      "expenseTypes": [
+        {
+          "displayName": "Late Tax Payment Penalties",
+          "expenseType": "LATE_TAX_PAYMENT_PENALTIES"
+        }
+      ]
+    },
+    {
+      "count": 8,
+      "groupName": "EMPLOYEE_COSTS",
+      "displayName": "Employee Costs",
+      "expenseTypes": [
+        {
+          "displayName": "Salaries and Wages",
+          "expenseType": "SALARIES_AND_WAGES"
+        },
+        {
+          "displayName": "Staff Training",
+          "expenseType": "STAFF_TRAINING"
+        },
+        {
+          "displayName": "Staff Welfare",
+          "expenseType": "STAFF_WELFARE"
+        },
+        {
+          "displayName": "Pension Scheme Contributions",
+          "expenseType": "PENSION_SCHEME_CONTRIBUTIONS"
+        },
+        {
+          "displayName": "Medical Insurance Contributions",
+          "expenseType": "MEDICAL_INSURANCE_CONTRIBUTIONS"
+        },
+        {
+          "displayName": "Subcontractor Costs",
+          "expenseType": "SUBCONTRACTOR_COSTS"
+        },
+        {
+          "displayName": "Childcare Voucher Admin Fees",
+          "expenseType": "CHILDCARE_VOUCHER_ADMIN_FEES"
+        },
+        {
+          "displayName": "Staff Benefits and Expenses",
+          "expenseType": "STAFF_BENEFITS_EXPENSES"
+        }
+      ]
+    },
+    {
+      "count": 2,
+      "groupName": "COST_OF_SALES",
+      "displayName": "Cost of Sales",
+      "expenseTypes": [
+        {
+          "displayName": "Purchases and Materials (direct costs)",
+          "expenseType": "PURCHASES_AND_MATERIALS"
+        },
+        {
+          "displayName": "Other Direct Costs",
+          "expenseType": "OTHER_DIRECT_COSTS"
+        }
+      ]
+    },
+    {
+      "count": 1,
+      "groupName": "DONATIONS",
+      "displayName": "Donations",
+      "expenseTypes": [
+        {
+          "displayName": "Charitable Donations",
+          "expenseType": "CHARITABLE_DONATIONS"
+        }
+      ]
+    }
+  ],
+  "count": 13
+}

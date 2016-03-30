@@ -1,0 +1,1367 @@
+﻿{
+  "count": 35,
+  "firstResult": 0,
+  "expense": [
+    {
+      "expenseId": 15051,
+      "resourceUrl": "/v2/expenses/15051",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 24,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 20,
+              "grossAmount": 24,
+              "vatAmount": 4
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 15004,
+      "resourceUrl": "/v2/expenses/15004",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 24,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 20,
+              "grossAmount": 24,
+              "vatAmount": 4
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 15003,
+      "resourceUrl": "/v2/expenses/15003",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 15002,
+      "resourceUrl": "/v2/expenses/15002",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 15001,
+      "resourceUrl": "/v2/expenses/15001",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 15000,
+      "resourceUrl": "/v2/expenses/15000",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14999,
+      "resourceUrl": "/v2/expenses/14999",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14998,
+      "resourceUrl": "/v2/expenses/14998",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 21.99,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 21.99,
+              "vatAmount": 3.66
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14997,
+      "resourceUrl": "/v2/expenses/14997",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 24,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 24,
+              "grossAmount": 24,
+              "vatAmount": 0
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14996,
+      "resourceUrl": "/v2/expenses/14996",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14995,
+      "resourceUrl": "/v2/expenses/14995",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 23,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 23,
+              "grossAmount": 23,
+              "vatAmount": 0
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14994,
+      "resourceUrl": "/v2/expenses/14994",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 18
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 18,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18,
+              "grossAmount": 18,
+              "vatAmount": 0
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14993,
+      "resourceUrl": "/v2/expenses/14993",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 22
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "MILEAGE_ALLOWANCE",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 14992,
+      "resourceUrl": "/v2/expenses/14992",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 22
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "ACCOUNTANCY_SELF_ASSESSMENT",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 11466,
+      "resourceUrl": "/v2/expenses/11466",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-27"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2015-07-27",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 22
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 22,
+        "expenseLineItems": [
+          {
+            "expenseType": "ACCOUNTANCY_SELF_ASSESSMENT",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 18.33,
+              "grossAmount": 22,
+              "vatAmount": 3.67
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      },
+      "note": "VAT Type: Standard\nClient to Bill: None\n\nSubmitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 11325,
+      "resourceUrl": "/v2/expenses/11325",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2015-07-20"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 3456,
+        "expenseLineItems": [
+          {
+            "expenseType": "ACCOUNTANCY_SELF_ASSESSMENT",
+            "lineItemDescription": "No description",
+            "lineItemAmount": {
+              "netAmount": 2880,
+              "grossAmount": 3456,
+              "vatAmount": 576
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      },
+      "note": "Submitted by Expend for iOS. Visit http://expend.io for more information."
+    },
+    {
+      "expenseId": 6614,
+      "resourceUrl": "/v2/expenses/6614",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "supplierReference": "",
+        "postingDate": "2014-03-12"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 12.5,
+        "expenseLineItems": [
+          {
+            "expenseType": "TO_BE_ALLOCATED",
+            "lineItemDescription": "My expense 1",
+            "lineItemAmount": {
+              "netAmount": 12.5,
+              "grossAmount": 12.5,
+              "vatAmount": 0
+            }
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "expenseId": 5004,
+      "resourceUrl": "/v2/expenses/5004",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Slimline Office Products Ltd",
+          "supplierId": 1448
+        },
+        "supplierReference": "",
+        "postingDate": "2014-01-01"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 30.69,
+        "expenseLineItems": [
+          {
+            "expenseType": "INTERNET",
+            "lineItemDescription": "Lunch at customer site",
+            "lineItemAmount": {
+              "netAmount": 25.57,
+              "grossAmount": 30.69,
+              "vatAmount": 5.12
+            }
+          }
+        ]
+      },
+      "note": ""
+    },
+    {
+      "expenseId": 2961,
+      "resourceUrl": "/v2/expenses/2961",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Domestic Placement Customisers Ltd",
+          "supplierId": 1449
+        },
+        "postingDate": "2013-08-04"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 375,
+        "expenseLineItems": [
+          {
+            "expenseType": "SUBSISTENCE",
+            "lineItemDescription": "Overnight stay for client visit",
+            "lineItemAmount": {
+              "netAmount": 312.5,
+              "grossAmount": 375,
+              "vatAmount": 62.5
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2960,
+      "resourceUrl": "/v2/expenses/2960",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Slimline Office Products Ltd",
+          "supplierId": 1448
+        },
+        "postingDate": "2013-07-28"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 350,
+        "expenseLineItems": [
+          {
+            "expenseType": "PUBLIC_TRANSPORT",
+            "lineItemDescription": "Train fare for trip to client site",
+            "lineItemAmount": {
+              "netAmount": 350,
+              "grossAmount": 350,
+              "vatAmount": 0
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2959,
+      "resourceUrl": "/v2/expenses/2959",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Lighting Lasersure Ltd",
+          "supplierId": 1447
+        },
+        "postingDate": "2013-07-21"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 325,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 270.83,
+              "grossAmount": 325,
+              "vatAmount": 54.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2958,
+      "resourceUrl": "/v2/expenses/2958",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Desk Chairs Target Ltd",
+          "supplierId": 1446
+        },
+        "postingDate": "2013-07-14"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 300,
+        "expenseLineItems": [
+          {
+            "expenseType": "SUBSISTENCE",
+            "lineItemDescription": "Overnight stay for client visit",
+            "lineItemAmount": {
+              "netAmount": 250,
+              "grossAmount": 300,
+              "vatAmount": 50
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2957,
+      "resourceUrl": "/v2/expenses/2957",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Pens, Pencils and Tippex Ltd",
+          "supplierId": 1445
+        },
+        "postingDate": "2013-07-07"
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 275,
+        "expenseLineItems": [
+          {
+            "expenseType": "PUBLIC_TRANSPORT",
+            "lineItemDescription": "Train fare for trip to client site",
+            "lineItemAmount": {
+              "netAmount": 275,
+              "grossAmount": 275,
+              "vatAmount": 0
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 5439,
+      "resourceUrl": "/v2/expenses/5439",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Cheaper Telephony Now Ltd",
+          "supplierId": 1444
+        },
+        "postingDate": "2013-06-30"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-30",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 250
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 250,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 208.33,
+              "grossAmount": 250,
+              "vatAmount": 41.67
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2956,
+      "resourceUrl": "/v2/expenses/2956",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Cheaper Telephony Now Ltd",
+          "supplierId": 1444
+        },
+        "postingDate": "2013-06-30"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-30",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 250
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 250,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 208.33,
+              "grossAmount": 250,
+              "vatAmount": 41.67
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2955,
+      "resourceUrl": "/v2/expenses/2955",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Better Business Rates Ltd",
+          "supplierId": 1443
+        },
+        "postingDate": "2013-06-23"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-23",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 225
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 225,
+        "expenseLineItems": [
+          {
+            "expenseType": "SUBSISTENCE",
+            "lineItemDescription": "Overnight stay for client visit",
+            "lineItemAmount": {
+              "netAmount": 187.5,
+              "grossAmount": 225,
+              "vatAmount": 37.5
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2954,
+      "resourceUrl": "/v2/expenses/2954",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Green Paper Supplies Ltd",
+          "supplierId": 1442
+        },
+        "postingDate": "2013-06-16"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-16",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 200
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 200,
+        "expenseLineItems": [
+          {
+            "expenseType": "PUBLIC_TRANSPORT",
+            "lineItemDescription": "Train fare for trip to client site",
+            "lineItemAmount": {
+              "netAmount": 200,
+              "grossAmount": 200,
+              "vatAmount": 0
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 4997,
+      "resourceUrl": "/v2/expenses/4997",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Computer Bits and Pieces Ltd",
+          "supplierId": 1441
+        },
+        "postingDate": "2013-06-09"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-09",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 175
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 175,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 145.83,
+              "grossAmount": 175,
+              "vatAmount": 29.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 4996,
+      "resourceUrl": "/v2/expenses/4996",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Computer Bits and Pieces Ltd",
+          "supplierId": 1441
+        },
+        "postingDate": "2013-06-09"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-09",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 175
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 175,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 145.83,
+              "grossAmount": 175,
+              "vatAmount": 29.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 4995,
+      "resourceUrl": "/v2/expenses/4995",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Computer Bits and Pieces Ltd",
+          "supplierId": 1441
+        },
+        "postingDate": "2013-06-09"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-09",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 175
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 175,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 145.83,
+              "grossAmount": 175,
+              "vatAmount": 29.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 4994,
+      "resourceUrl": "/v2/expenses/4994",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Computer Bits and Pieces Ltd",
+          "supplierId": 1441
+        },
+        "postingDate": "2013-06-09"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-09",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 175
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 175,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 145.83,
+              "grossAmount": 175,
+              "vatAmount": 29.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2953,
+      "resourceUrl": "/v2/expenses/2953",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Computer Bits and Pieces Ltd",
+          "supplierId": 1441
+        },
+        "postingDate": "2013-06-09"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-09",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 175
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 175,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 145.83,
+              "grossAmount": 175,
+              "vatAmount": 29.17
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2952,
+      "resourceUrl": "/v2/expenses/2952",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Travelodge Hotels",
+          "supplierId": 1440
+        },
+        "postingDate": "2013-06-02"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-06-02",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 150
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 150,
+        "expenseLineItems": [
+          {
+            "expenseType": "SUBSISTENCE",
+            "lineItemDescription": "Overnight stay for client visit",
+            "lineItemAmount": {
+              "netAmount": 125,
+              "grossAmount": 150,
+              "vatAmount": 25
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2951,
+      "resourceUrl": "/v2/expenses/2951",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Southern Rail",
+          "supplierId": 1439
+        },
+        "postingDate": "2013-05-26"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-05-26",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 125
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 125,
+        "expenseLineItems": [
+          {
+            "expenseType": "PUBLIC_TRANSPORT",
+            "lineItemDescription": "Train fare for trip to client site",
+            "lineItemAmount": {
+              "netAmount": 125,
+              "grossAmount": 125,
+              "vatAmount": 0
+            },
+            "benefitingDirector": {
+              "directorId": 580,
+              "directorName": "Darren Loft",
+              "directorEmail": "darren.loft@crunch.co.uk.test11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "expenseId": 2950,
+      "resourceUrl": "/v2/expenses/2950",
+      "expenseDetails": {
+        "supplier": {
+          "name": "Amazon UK",
+          "supplierId": 1438
+        },
+        "postingDate": "2013-05-19"
+      },
+      "paymentDetails": {
+        "payment": [
+          {
+            "paymentDate": "2013-05-19",
+            "paymentMethod": "EFT",
+            "bankAccount": {
+              "accountId": 304,
+              "accountNumber": "98764321",
+              "account": "Main Business Account"
+            },
+            "amount": 100
+          }
+        ],
+        "count": 1
+      },
+      "expenseLineItems": {
+        "count": 1,
+        "lineItemGrossTotal": 100,
+        "expenseLineItems": [
+          {
+            "expenseType": "COMPUTER_CONSUMABLES",
+            "lineItemDescription": "Printer cartridges",
+            "lineItemAmount": {
+              "netAmount": 83.33,
+              "grossAmount": 100,
+              "vatAmount": 16.67
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1711 @@
+﻿{
+  "count": 42,
+  "firstResult": 0,
+  "salesInvoice": [
+    {
+      "salesInvoiceId": 4265,
+      "resourceUrl": "/v2/salesInvoices/4265",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Data",
+            "quantity": 1,
+            "rate": 28.8,
+            "lineItemAmount": {
+              "netAmount": 24,
+              "grossAmount": 28.8,
+              "vatAmount": 4.8,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "AndrewRa-58749-10",
+        "issuedDate": "2015-04-01",
+        "paymentTermsDays": 30,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2015-04-30T08:38:30.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3600,
+      "resourceUrl": "/v2/salesInvoices/3600",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "test",
+            "quantity": 1,
+            "rate": 200,
+            "lineItemAmount": {
+              "netAmount": 200,
+              "grossAmount": 240,
+              "vatAmount": 40,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 929,
+          "name": "Compass Technologies Ltd"
+        },
+        "clientReference": "",
+        "issuedDate": "2015-01-23",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2015-01-23T12:40:08.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3026,
+      "resourceUrl": "/v2/salesInvoices/3026",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 54,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-09-02T11:47:21.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3025,
+      "resourceUrl": "/v2/salesInvoices/3025",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 54,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-09-02T11:18:13.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3024,
+      "resourceUrl": "/v2/salesInvoices/3024",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 54,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-09-02T11:15:35.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3023,
+      "resourceUrl": "/v2/salesInvoices/3023",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 54,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-09-02T11:08:00.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3022,
+      "resourceUrl": "/v2/salesInvoices/3022",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 45,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-09-02T11:07:51.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2135,
+      "resourceUrl": "/v2/salesInvoices/2135",
+      "currency": "EUR",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 30,
+            "lineItemAmount": {
+              "netAmount": 30,
+              "grossAmount": 30,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ImaticsSoftware-009865-35",
+        "issuedDate": "2014-04-15",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-23T12:17:43.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2080,
+      "resourceUrl": "/v2/salesInvoices/2080",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Monthly Payment",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 25,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "ddsfsdf56565-28",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T15:34:23.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2079,
+      "resourceUrl": "/v2/salesInvoices/2079",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "TEST",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 25,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "292798",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T14:56:28.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2078,
+      "resourceUrl": "/v2/salesInvoices/2078",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "TEST",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 25,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "292798",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T14:56:10.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2077,
+      "resourceUrl": "/v2/salesInvoices/2077",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "TEST",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 25,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "292798",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T14:55:56.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2076,
+      "resourceUrl": "/v2/salesInvoices/2076",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "TEST",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 25,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "292798",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T14:54:27.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2075,
+      "resourceUrl": "/v2/salesInvoices/2075",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "TEST",
+            "quantity": 1,
+            "rate": 25,
+            "lineItemAmount": {
+              "netAmount": 25,
+              "grossAmount": 30,
+              "vatAmount": 5,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "292798",
+        "issuedDate": "2014-03-25",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-16T14:50:19.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 2025,
+      "resourceUrl": "/v2/salesInvoices/2025",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather API",
+            "quantity": 1,
+            "rate": 45,
+            "lineItemAmount": {
+              "netAmount": 45,
+              "grossAmount": 54,
+              "vatAmount": 9,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "clientReference": "FineEq-58749-1",
+        "issuedDate": "2014-03-17",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-04-03T09:27:36.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1872,
+      "resourceUrl": "/v2/salesInvoices/1872",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Test",
+            "quantity": 1,
+            "rate": 10,
+            "lineItemAmount": {
+              "netAmount": 10,
+              "grossAmount": 12,
+              "vatAmount": 2,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "issuedDate": "2014-01-30",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "string",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-02-13T20:23:35.000+0000",
+        "issueDateType": "MANUAL"
+      },
+      "note": "hello"
+    },
+    {
+      "salesInvoiceId": 1871,
+      "resourceUrl": "/v2/salesInvoices/1871",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Test",
+            "quantity": 1,
+            "rate": 10,
+            "lineItemAmount": {
+              "netAmount": 10,
+              "grossAmount": 12,
+              "vatAmount": 2,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "issuedDate": "2014-01-30",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "string",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-02-13T20:23:35.000+0000",
+        "issueDateType": "MANUAL"
+      },
+      "note": "hello"
+    },
+    {
+      "salesInvoiceId": 1870,
+      "resourceUrl": "/v2/salesInvoices/1870",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Test",
+            "quantity": 1,
+            "rate": 10,
+            "lineItemAmount": {
+              "netAmount": 10,
+              "grossAmount": 12,
+              "vatAmount": 2,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "issuedDate": "2014-01-30",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "string",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-02-13T20:23:34.000+0000",
+        "issueDateType": "MANUAL"
+      },
+      "note": "hello"
+    },
+    {
+      "salesInvoiceId": 1869,
+      "resourceUrl": "/v2/salesInvoices/1869",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Test",
+            "quantity": 1,
+            "rate": 10,
+            "lineItemAmount": {
+              "netAmount": 10,
+              "grossAmount": 12,
+              "vatAmount": 2,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "issuedDate": "2014-01-30",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "string",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-02-13T20:23:33.000+0000",
+        "issueDateType": "MANUAL"
+      },
+      "note": "hello"
+    },
+    {
+      "salesInvoiceId": 1868,
+      "resourceUrl": "/v2/salesInvoices/1868",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Test",
+            "quantity": 1,
+            "rate": 10,
+            "lineItemAmount": {
+              "netAmount": 10,
+              "grossAmount": 12,
+              "vatAmount": 2,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "issuedDate": "2014-01-30",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "string",
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-02-13T20:23:28.000+0000",
+        "issueDateType": "MANUAL"
+      },
+      "note": "hello"
+    },
+    {
+      "salesInvoiceId": 1835,
+      "resourceUrl": "/v2/salesInvoices/1835",
+      "currency": "USD",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather API",
+            "quantity": 1,
+            "rate": 50,
+            "lineItemAmount": {
+              "netAmount": 50,
+              "grossAmount": 60,
+              "vatAmount": 10,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "clientReference": "AurelienH-68294-4",
+        "issuedDate": "2014-01-02",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-01-29T13:41:19.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1834,
+      "resourceUrl": "/v2/salesInvoices/1834",
+      "currency": "USD",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather API",
+            "quantity": 1,
+            "rate": 50,
+            "lineItemAmount": {
+              "netAmount": 50,
+              "grossAmount": 60,
+              "vatAmount": 10,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "clientReference": "AurelienH-68294-4",
+        "issuedDate": "2014-01-02",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-01-29T12:21:20.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1833,
+      "resourceUrl": "/v2/salesInvoices/1833",
+      "currency": "USD",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed A",
+            "quantity": 1,
+            "rate": 50,
+            "lineItemAmount": {
+              "netAmount": 50,
+              "grossAmount": 60,
+              "vatAmount": 10,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-12-09",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-01-29T12:20:02.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1832,
+      "resourceUrl": "/v2/salesInvoices/1832",
+      "currency": "USD",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed A",
+            "quantity": 1,
+            "rate": 40,
+            "lineItemAmount": {
+              "netAmount": 40,
+              "grossAmount": 40,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-12-09",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-01-29T12:14:48.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1748,
+      "resourceUrl": "/v2/salesInvoices/1748",
+      "currency": "USD",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Premium Weather Feed",
+            "quantity": 1,
+            "rate": 40,
+            "lineItemAmount": {
+              "netAmount": 40,
+              "grossAmount": 40,
+              "vatAmount": 0,
+              "vatRate": 0
+            },
+            "vatType": "ZERO"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-12-09",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2014-01-10T17:57:08.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1717,
+      "resourceUrl": "/v2/salesInvoices/1717",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "test line item",
+            "quantity": 1,
+            "rate": 4500,
+            "lineItemAmount": {
+              "netAmount": 3750,
+              "grossAmount": 4500,
+              "vatAmount": 750,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-10-26",
+        "paymentTermsDays": 30,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-12-18T12:41:17.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1716,
+      "resourceUrl": "/v2/salesInvoices/1716",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "test line item",
+            "quantity": 1,
+            "rate": 4500,
+            "lineItemAmount": {
+              "netAmount": 3750,
+              "grossAmount": 4500,
+              "vatAmount": 750,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-10-26",
+        "paymentTermsDays": 30,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-12-18T12:32:37.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1715,
+      "resourceUrl": "/v2/salesInvoices/1715",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "test line item",
+            "quantity": 1,
+            "rate": 4500,
+            "lineItemAmount": {
+              "netAmount": 3750,
+              "grossAmount": 4500,
+              "vatAmount": 750,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "issuedDate": "2013-10-26",
+        "paymentTermsDays": 30,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-12-18T12:30:09.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1364,
+      "resourceUrl": "/v2/salesInvoices/1364",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 4750,
+            "lineItemAmount": {
+              "netAmount": 3958.33,
+              "grossAmount": 4750,
+              "vatAmount": 791.67,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 938,
+          "name": "Railings in Outerspace Ltd"
+        },
+        "issuedDate": "2013-08-06",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:17:04.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1363,
+      "resourceUrl": "/v2/salesInvoices/1363",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 4500,
+            "lineItemAmount": {
+              "netAmount": 3750,
+              "grossAmount": 4500,
+              "vatAmount": 750,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 937,
+          "name": "Keyboard Wizards R Us Ltd"
+        },
+        "issuedDate": "2013-07-30",
+        "paymentTermsDays": 28,
+        "state": "DRAFT",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:17:04.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 6542,
+      "resourceUrl": "/v2/salesInvoices/6542",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "asdf",
+            "quantity": 1,
+            "rate": 123,
+            "lineItemAmount": {
+              "netAmount": 123,
+              "grossAmount": 147.6,
+              "vatAmount": 24.6,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 4388,
+          "name": "Richard Testing"
+        },
+        "clientReference": "",
+        "dueDate": "2015-08-11",
+        "issuedDate": "2015-07-14",
+        "invoiceNumber": "0487/0012",
+        "paymentTermsDays": 28,
+        "purchaseOrder": "",
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2015-08-11T02:00:00.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 3599,
+      "resourceUrl": "/v2/salesInvoices/3599",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "test",
+            "quantity": 1,
+            "rate": 1000,
+            "lineItemAmount": {
+              "netAmount": 900,
+              "grossAmount": 1080,
+              "vatAmount": 180,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 4,
+        "clientPayment": [
+          {
+            "clientPaymentId": 9631,
+            "resourceUrl": "/v2/clientpayments/9631"
+          },
+          {
+            "clientPaymentId": 9632,
+            "resourceUrl": "/v2/clientpayments/9632"
+          },
+          {
+            "clientPaymentId": 9633,
+            "resourceUrl": "/v2/clientpayments/9633"
+          },
+          {
+            "clientPaymentId": 11704,
+            "resourceUrl": "/v2/clientpayments/11704"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 1304,
+          "name": "string"
+        },
+        "clientReference": "",
+        "dueDate": "2015-01-23",
+        "issuedDate": "2015-01-23",
+        "invoiceNumber": "0487/0011",
+        "paymentTermsDays": 0,
+        "purchaseOrder": "",
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2015-04-28T14:00:18.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1362,
+      "resourceUrl": "/v2/salesInvoices/1362",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 4250,
+            "lineItemAmount": {
+              "netAmount": 3541.67,
+              "grossAmount": 4250,
+              "vatAmount": 708.33,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 936,
+          "name": "Blackneedle Designs Ltd"
+        },
+        "dueDate": "2013-08-20",
+        "issuedDate": "2013-07-23",
+        "invoiceNumber": "0487/0010",
+        "paymentTermsDays": 28,
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-20T02:00:00.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1361,
+      "resourceUrl": "/v2/salesInvoices/1361",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 4000,
+            "lineItemAmount": {
+              "netAmount": 3333.33,
+              "grossAmount": 4000,
+              "vatAmount": 666.67,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 935,
+          "name": "Greenshirt Programmers Ltd"
+        },
+        "dueDate": "2013-08-13",
+        "issuedDate": "2013-07-16",
+        "invoiceNumber": "0487/0009",
+        "paymentTermsDays": 28,
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-13T02:00:00.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1360,
+      "resourceUrl": "/v2/salesInvoices/1360",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 3750,
+            "lineItemAmount": {
+              "netAmount": 3125,
+              "grossAmount": 3750,
+              "vatAmount": 625,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 934,
+          "name": "Bananatree IT Tech Ltd"
+        },
+        "dueDate": "2013-08-06",
+        "issuedDate": "2013-07-09",
+        "invoiceNumber": "0487/0008",
+        "paymentTermsDays": 28,
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-07T02:00:00.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1353,
+      "resourceUrl": "/v2/salesInvoices/1353",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 2000,
+            "lineItemAmount": {
+              "netAmount": 1666.67,
+              "grossAmount": 2000,
+              "vatAmount": 333.33,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 0,
+        "clientPayment": []
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 927,
+          "name": "Astral Communications Ltd"
+        },
+        "dueDate": "2013-06-18",
+        "issuedDate": "2013-05-21",
+        "invoiceNumber": "0487/0001",
+        "paymentTermsDays": 28,
+        "state": "OVERDUE",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:35.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1359,
+      "resourceUrl": "/v2/salesInvoices/1359",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 3500,
+            "lineItemAmount": {
+              "netAmount": 2916.67,
+              "grossAmount": 3500,
+              "vatAmount": 583.33,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3470,
+            "resourceUrl": "/v2/clientpayments/3470"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 933,
+          "name": "Helicopter Crisp Ltd"
+        },
+        "dueDate": "2013-07-30",
+        "issuedDate": "2013-07-02",
+        "invoiceNumber": "0487/0007",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-07-02",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:57.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1358,
+      "resourceUrl": "/v2/salesInvoices/1358",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 3250,
+            "lineItemAmount": {
+              "netAmount": 2708.33,
+              "grossAmount": 3250,
+              "vatAmount": 541.67,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3469,
+            "resourceUrl": "/v2/clientpayments/3469"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 932,
+          "name": "Pinknoodle Consultants Ltd"
+        },
+        "dueDate": "2013-07-23",
+        "issuedDate": "2013-06-25",
+        "invoiceNumber": "0487/0006",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-06-25",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:53.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1357,
+      "resourceUrl": "/v2/salesInvoices/1357",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 3000,
+            "lineItemAmount": {
+              "netAmount": 2500,
+              "grossAmount": 3000,
+              "vatAmount": 500,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3468,
+            "resourceUrl": "/v2/clientpayments/3468"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 931,
+          "name": "Couldn't Be Better Consultancy Ltd"
+        },
+        "dueDate": "2013-07-16",
+        "issuedDate": "2013-06-18",
+        "invoiceNumber": "0487/0005",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-06-18",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:50.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1356,
+      "resourceUrl": "/v2/salesInvoices/1356",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 2750,
+            "lineItemAmount": {
+              "netAmount": 2291.67,
+              "grossAmount": 2750,
+              "vatAmount": 458.33,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3467,
+            "resourceUrl": "/v2/clientpayments/3467"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 930,
+          "name": "Totally Happening Today Ltd"
+        },
+        "dueDate": "2013-07-09",
+        "issuedDate": "2013-06-11",
+        "invoiceNumber": "0487/0004",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-06-11",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:47.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1355,
+      "resourceUrl": "/v2/salesInvoices/1355",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 2500,
+            "lineItemAmount": {
+              "netAmount": 2083.33,
+              "grossAmount": 2500,
+              "vatAmount": 416.67,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3466,
+            "resourceUrl": "/v2/clientpayments/3466"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 929,
+          "name": "Compass Technologies Ltd"
+        },
+        "dueDate": "2013-07-02",
+        "issuedDate": "2013-06-04",
+        "invoiceNumber": "0487/0003",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-06-04",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:43.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    },
+    {
+      "salesInvoiceId": 1354,
+      "resourceUrl": "/v2/salesInvoices/1354",
+      "currency": "GBP",
+      "salesInvoiceLineItems": {
+        "salesInvoiceLineItem": [
+          {
+            "lineItemDescription": "Consultancy services",
+            "quantity": 1,
+            "rate": 2250,
+            "lineItemAmount": {
+              "netAmount": 1875,
+              "grossAmount": 2250,
+              "vatAmount": 375,
+              "vatRate": 20
+            },
+            "vatType": "STANDARD"
+          }
+        ],
+        "count": 1
+      },
+      "clientPayments": {
+        "count": 1,
+        "clientPayment": [
+          {
+            "clientPaymentId": 3465,
+            "resourceUrl": "/v2/clientpayments/3465"
+          }
+        ]
+      },
+      "salesInvoiceDetails": {
+        "client": {
+          "clientId": 928,
+          "name": "Blue Ribbon Solutions Ltd"
+        },
+        "dueDate": "2013-06-25",
+        "issuedDate": "2013-05-28",
+        "invoiceNumber": "0487/0002",
+        "paymentTermsDays": 28,
+        "settledDate": "2013-05-28",
+        "state": "SETTLED",
+        "emailReminderToCustomer": false,
+        "lastModifiedDate": "2013-08-06T11:16:40.000+0000",
+        "issueDateType": "MANUAL"
+      }
+    }
+  ]
+}

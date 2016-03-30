@@ -1,0 +1,760 @@
+﻿{
+  "count": 34,
+  "firstResult": 0,
+  "client": [
+    {
+      "clientId": 927,
+      "resourceUrl": "/v2/clients/927",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1132,
+      "resourceUrl": "/v2/clients/1132",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Javed",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1129,
+      "resourceUrl": "/v2/clients/1129",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1133,
+      "resourceUrl": "/v2/clients/1133",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Javed",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1130,
+      "resourceUrl": "/v2/clients/1130",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Javed",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1134,
+      "resourceUrl": "/v2/clients/1134",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Javed",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1131,
+      "resourceUrl": "/v2/clients/1131",
+      "defaultCurrency": "GBP",
+      "name": "Astral Communications Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Javed",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "1 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 934,
+      "resourceUrl": "/v2/clients/934",
+      "defaultCurrency": "GBP",
+      "name": "Bananatree IT Tech Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "8 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 936,
+      "resourceUrl": "/v2/clients/936",
+      "defaultCurrency": "GBP",
+      "name": "Blackneedle Designs Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "10 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 928,
+      "resourceUrl": "/v2/clients/928",
+      "defaultCurrency": "GBP",
+      "name": "Blue Ribbon Solutions Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "2 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 929,
+      "resourceUrl": "/v2/clients/929",
+      "defaultCurrency": "GBP",
+      "name": "Compass Technologies Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "3 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 931,
+      "resourceUrl": "/v2/clients/931",
+      "defaultCurrency": "GBP",
+      "name": "Couldn't Be Better Consultancy Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "5 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 935,
+      "resourceUrl": "/v2/clients/935",
+      "defaultCurrency": "GBP",
+      "name": "Greenshirt Programmers Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "9 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 933,
+      "resourceUrl": "/v2/clients/933",
+      "defaultCurrency": "GBP",
+      "name": "Helicopter Crisp Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "7 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1138,
+      "resourceUrl": "/v2/clients/1138",
+      "defaultCurrency": "GBP",
+      "name": "Jawaid",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Aatif",
+            "includeInEmail": true,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 30,
+      "billingAddress": {
+        "line1": "Abc",
+        "line2": "Area",
+        "country": "Pakistan"
+      }
+    },
+    {
+      "clientId": 1141,
+      "resourceUrl": "/v2/clients/1141",
+      "defaultCurrency": "GBP",
+      "name": "Jawaid",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Aatif",
+            "includeInEmail": true,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 30,
+      "billingAddress": {
+        "line1": "Abc",
+        "line2": "Area",
+        "country": "Pakistan"
+      }
+    },
+    {
+      "clientId": 1135,
+      "resourceUrl": "/v2/clients/1135",
+      "defaultCurrency": "GBP",
+      "name": "Jawaid Nawab",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Aatif",
+            "includeInEmail": true,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 30,
+      "billingAddress": {
+        "line1": "Abc",
+        "line2": "Area",
+        "country": "Pakistan"
+      }
+    },
+    {
+      "clientId": 1136,
+      "resourceUrl": "/v2/clients/1136",
+      "defaultCurrency": "GBP",
+      "name": "Jawaid Nawab",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Aatif",
+            "includeInEmail": true,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 30,
+      "billingAddress": {
+        "line1": "Abc",
+        "line2": "Area",
+        "country": "Pakistan"
+      }
+    },
+    {
+      "clientId": 937,
+      "resourceUrl": "/v2/clients/937",
+      "defaultCurrency": "GBP",
+      "name": "Keyboard Wizards R Us Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "11 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1223,
+      "resourceUrl": "/v2/clients/1223",
+      "defaultCurrency": "GBP",
+      "name": "NEW CLIENT TODAY",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 30,
+      "companyRegistrationNumber": "235123",
+      "billingAddress": {
+        "line1": "address line 1",
+        "line2": "address line 2",
+        "line3": "blank",
+        "line4": "blank",
+        "postcode": "SK9 5AA",
+        "country": "United Kingdom"
+      },
+      "telephone": "",
+      "website": ""
+    },
+    {
+      "clientId": 932,
+      "resourceUrl": "/v2/clients/932",
+      "defaultCurrency": "GBP",
+      "name": "Pinknoodle Consultants Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "6 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1948,
+      "resourceUrl": "/v2/clients/1948",
+      "defaultCurrency": "GBP",
+      "name": "PPT",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 10,
+      "billingAddress": {
+        "line1": "14 Colman alley",
+        "line2": "Dullsville",
+        "postcode": "BX0 0ON",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 938,
+      "resourceUrl": "/v2/clients/938",
+      "defaultCurrency": "GBP",
+      "name": "Railings in Outerspace Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "12 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1951,
+      "resourceUrl": "/v2/clients/1951",
+      "defaultCurrency": "GBP",
+      "name": "Ren??e Br??derbund",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 10,
+      "billingAddress": {
+        "line1": "14 Colman alley",
+        "line2": "Dullsville",
+        "postcode": "BX0 0ON",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1949,
+      "resourceUrl": "/v2/clients/1949",
+      "defaultCurrency": "GBP",
+      "name": "Ren??e Br??derbund",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 10,
+      "billingAddress": {
+        "line1": "14 Colman alley",
+        "line2": "Dullsville",
+        "postcode": "BX0 0ON",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 1950,
+      "resourceUrl": "/v2/clients/1950",
+      "defaultCurrency": "GBP",
+      "name": "Ren??e Br??derbund",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 10,
+      "billingAddress": {
+        "line1": "14 Colman alley",
+        "line2": "Dullsville",
+        "postcode": "BX0 0ON",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "clientId": 4388,
+      "resourceUrl": "/v2/clients/4388",
+      "defaultCurrency": "GBP",
+      "name": "Richard Testing",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "123",
+        "line2": "213",
+        "line3": "",
+        "line4": "",
+        "postcode": "ASD",
+        "country": "United Kingdom"
+      },
+      "telephone": "",
+      "fax": "",
+      "email": "richard.hulm@crunch.co.uk",
+      "website": ""
+    },
+    {
+      "clientId": 1304,
+      "resourceUrl": "/v2/clients/1304",
+      "defaultCurrency": "USD",
+      "name": "string",
+      "vatRegistrationNumber": "string",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 0,
+      "companyRegistrationNumber": "string",
+      "billingAddress": {
+        "line1": "dfdfd",
+        "line2": "fdfd",
+        "postcode": "545454",
+        "country": "Pakistan"
+      },
+      "telephone": "string",
+      "fax": "string",
+      "email": "saaditahir@gmail.com",
+      "website": "string"
+    },
+    {
+      "clientId": 4274,
+      "resourceUrl": "/v2/clients/4274",
+      "defaultCurrency": "GBP",
+      "name": "string",
+      "vatRegistrationNumber": "string",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 2,
+      "note": "string",
+      "companyRegistrationNumber": "string",
+      "billingAddress": {
+        "line1": "string",
+        "line2": "string",
+        "line3": "string",
+        "line4": "string",
+        "postcode": "string",
+        "country": "Sweden"
+      },
+      "telephone": "string",
+      "fax": "string",
+      "email": "a@b.com",
+      "website": "string"
+    },
+    {
+      "clientId": 4387,
+      "resourceUrl": "/v2/clients/4387",
+      "defaultCurrency": "GBP",
+      "name": "Test",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "Test",
+        "line2": "Test",
+        "postcode": "HELLO",
+        "country": "United Kingdom"
+      },
+      "email": "richard.hulm@crunch.co.uk"
+    },
+    {
+      "clientId": 1222,
+      "resourceUrl": "/v2/clients/1222",
+      "defaultCurrency": "GBP",
+      "name": "test",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 30,
+      "companyRegistrationNumber": "555444",
+      "billingAddress": {
+        "line1": "address 1",
+        "line2": "address 2",
+        "line3": "address 3",
+        "line4": "address 4",
+        "postcode": "SK9 5AA",
+        "country": "United Kingdom"
+      },
+      "telephone": "123123",
+      "website": ""
+    },
+    {
+      "clientId": 2623,
+      "resourceUrl": "/v2/clients/2623",
+      "defaultCurrency": "GBP",
+      "name": "Test Client One",
+      "vatRegistrationNumber": "",
+      "contacts": {
+        "count": 0,
+        "contacts": []
+      },
+      "paymentTermsDays": 28,
+      "companyRegistrationNumber": "",
+      "billingAddress": {
+        "line1": "There",
+        "line2": "Here",
+        "line3": "",
+        "line4": "",
+        "postcode": "BN12 4NG",
+        "country": "United Kingdom"
+      },
+      "telephone": "01273777777",
+      "fax": "",
+      "email": "testclientemail@crunch.co.uk",
+      "website": ""
+    },
+    {
+      "clientId": 1208,
+      "resourceUrl": "/v2/clients/1208",
+      "defaultCurrency": "GBP",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Tom Roberts",
+            "email": "tom@gontroller.com",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "34 Grass Acres",
+        "line2": "Braunstone",
+        "line3": "Leicester",
+        "line4": "Leicestershire",
+        "postcode": "LE3 2UQ",
+        "country": "United States"
+      }
+    },
+    {
+      "clientId": 930,
+      "resourceUrl": "/v2/clients/930",
+      "defaultCurrency": "GBP",
+      "name": "Totally Happening Today Ltd",
+      "contacts": {
+        "count": 1,
+        "contacts": [
+          {
+            "name": "Joe Bloggs",
+            "includeInEmail": false,
+            "primaryContact": true
+          }
+        ]
+      },
+      "paymentTermsDays": 28,
+      "billingAddress": {
+        "line1": "4 New Road",
+        "line2": "Brighton",
+        "postcode": "BN1 1NB",
+        "country": "United Kingdom"
+      }
+    }
+  ]
+}

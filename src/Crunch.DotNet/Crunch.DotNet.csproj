@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{84DA692C-C380-4238-A9B5-5BE893C5A126}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crunch.DotNet</RootNamespace>
+    <AssemblyName>Crunch.DotNet</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Model\Account.cs" />
+    <Compile Include="Model\Accounts.cs" />
+    <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\Amount.cs" />
+    <Compile Include="Model\ApiQueryList.cs" />
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\ClientPayment.cs" />
+    <Compile Include="Model\ClientPayments.cs" />
+    <Compile Include="Model\Clients.cs" />
+    <Compile Include="Model\Contact.cs" />
+    <Compile Include="Model\Contacts.cs" />
+    <Compile Include="Model\Director.cs" />
+    <Compile Include="Model\Directors.cs" />
+    <Compile Include="Model\Expense.cs" />
+    <Compile Include="Model\ExpenseDetails.cs" />
+    <Compile Include="Model\ExpenseGroup.cs" />
+    <Compile Include="Model\ExpenseGroups.cs" />
+    <Compile Include="Model\ExpenseLineItem.cs" />
+    <Compile Include="Model\ExpenseLineItems.cs" />
+    <Compile Include="Model\Expenses.cs" />
+    <Compile Include="Model\ExpenseType.cs" />
+    <Compile Include="Model\ExpenseTypes.cs" />
+    <Compile Include="Model\File.cs" />
+    <Compile Include="Model\Payment.cs" />
+    <Compile Include="Model\PaymentDetails.cs" />
+    <Compile Include="Model\PaymentMethod.cs" />
+    <Compile Include="Model\PaymentMethods.cs" />
+    <Compile Include="Model\Receipts.cs" />
+    <Compile Include="Model\Rechargeable.cs" />
+    <Compile Include="Model\SalesInvoice.cs" />
+    <Compile Include="Model\SalesInvoiceDetails.cs" />
+    <Compile Include="Model\SalesInvoiceLineItem.cs" />
+    <Compile Include="Model\SalesInvoiceLineItems.cs" />
+    <Compile Include="Model\SalesInvoices.cs" />
+    <Compile Include="Model\Supplier.cs" />
+    <Compile Include="Model\Suppliers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

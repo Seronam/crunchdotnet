@@ -1,0 +1,27 @@
+﻿{
+  "paymentMethod": [
+    {
+      "paymentMethodDisplayName": "Transfer into company account",
+      "requiredElement": "bankAccount",
+      "paymentMethodName": "EFT"
+    },
+    {
+      "paymentMethodDisplayName": "Transfer into payment processing account",
+      "requiredElement": "paymentProcessingAccount",
+      "paymentMethodName": "PPA"
+    },
+    {
+      "paymentMethodDisplayName": "Cheque made out to company",
+      "paymentMethodName": "CHEQUE"
+    },
+    {
+      "paymentMethodDisplayName": "Into petty cash",
+      "paymentMethodName": "CASH"
+    },
+    {
+      "paymentMethodDisplayName": "Received by director personally",
+      "requiredElement": "director",
+      "paymentMethodName": "DIRECTORS_EXPENSES"
+    }
+  ]
+}
