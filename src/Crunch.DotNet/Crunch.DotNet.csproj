@@ -34,6 +34,10 @@
       <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="OAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=75b3c62967edc2a2, processorArchitecture=MSIL">
+      <HintPath>..\packages\OAuth.1.0.3\lib\net40\OAuth.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,7 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Authorization\CrunchRestUrlProvider.cs" />
+    <Compile Include="Authorization\IOAuthWorkflow.cs" />
+    <Compile Include="Authorization\IRestUrlProvider.cs" />
+    <Compile Include="Authorization\OAuthAccessResponse.cs" />
+    <Compile Include="Authorization\OAuthWorkflow.cs" />
+    <Compile Include="CrunchEnvironment.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Accounts.cs" />
     <Compile Include="Model\Address.cs" />
@@ -86,6 +95,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

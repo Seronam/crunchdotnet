@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8E6252D8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crunch.DotNet.Tests.Unit", "Tests\Crunch.DotNet.Tests.Unit\Crunch.DotNet.Tests.Unit.csproj", "{E5F7B2FB-73C1-4182-9A6D-3D57B62EF84F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crunch.DotNet.Tests.Integration", "Tests\Crunch.DotNet.Tests.Integration\Crunch.DotNet.Tests.Integration.csproj", "{7715ADD6-AEA9-4518-9448-7AE56B66B3E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +25,16 @@ Global
 		{E5F7B2FB-73C1-4182-9A6D-3D57B62EF84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5F7B2FB-73C1-4182-9A6D-3D57B62EF84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5F7B2FB-73C1-4182-9A6D-3D57B62EF84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7715ADD6-AEA9-4518-9448-7AE56B66B3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7715ADD6-AEA9-4518-9448-7AE56B66B3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7715ADD6-AEA9-4518-9448-7AE56B66B3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7715ADD6-AEA9-4518-9448-7AE56B66B3E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E5F7B2FB-73C1-4182-9A6D-3D57B62EF84F} = {8E6252D8-E20F-4AE4-9E5F-2CF536BE4A8E}
+		{7715ADD6-AEA9-4518-9448-7AE56B66B3E5} = {8E6252D8-E20F-4AE4-9E5F-2CF536BE4A8E}
 	EndGlobalSection
 EndGlobal
