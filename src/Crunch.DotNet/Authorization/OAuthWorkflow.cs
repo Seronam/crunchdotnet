@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using Crunch.DotNet.Utilities;
 using OAuth;
 
 namespace Crunch.DotNet.Authorization
@@ -12,60 +13,54 @@ namespace Crunch.DotNet.Authorization
         private readonly string _consumerKey;
         private readonly string _secret;
         private readonly IRestUrlProvider _restUrlProvider;
+        private readonly IHttpWebRequestFactory _webRequestFactory;
 
-        public OAuthWorkflow(string consumerKey, string secret, IRestUrlProvider restUrlProvider)
+        public OAuthWorkflow(string consumerKey, string secret, IRestUrlProvider restUrlProvider, IHttpWebRequestFactory webRequestFactory)
         {
             _consumerKey = consumerKey;
             _secret = secret;
             _restUrlProvider = restUrlProvider;
+            _webRequestFactory = webRequestFactory;
         }
 
-        public OAuthAccessResponse RequestAccess()
+        public OAuthTempTokens InitiateAccessRequest()
         {
             var oAuthRequest = OAuthRequest.ForRequestToken(_consumerKey, _secret);
             oAuthRequest.RequestUrl = _restUrlProvider.RequestToken;
 
             var authHeader = oAuthRequest.GetAuthorizationHeader();
-            var request = (HttpWebRequest)WebRequest.Create(oAuthRequest.RequestUrl);
-
-            request.Headers.Add("Authorization", authHeader);
-            request.Method = "GET";
+            var request = _webRequestFactory.Create(oAuthRequest.RequestUrl, WebRequestMethods.Http.Get, authHeader);
 
             var result = GetResponseContent(request);
             var tokens = GetTokens(result).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
             var token = tokens["oauth_token"];
             var secret = tokens["oauth_token_secret"];
 
-            var loginUrl = _restUrlProvider.GetAuthLogin(token);
+            var verificationUrl = _restUrlProvider.GetAuthLogin(token);
 
-            System.Diagnostics.Process.Start(loginUrl);
-
-            return new OAuthAccessResponse(token, secret);
+            return new OAuthTempTokens(token, secret, verificationUrl);
         }
 
-        public string GetAccessToken(string verificationToken, OAuthAccessResponse oAuthAccessResponse)
+        public OAuthTokens RequestAccess(string verificationToken, OAuthTempTokens oAuthTempTokens)
         {
-            var oauthClient = OAuthRequest.ForAccessToken(_consumerKey, _secret, oAuthAccessResponse.Token, oAuthAccessResponse.TokenSecret, verificationToken);
-            oauthClient.RequestUrl = _restUrlProvider.AccessToken;
+            var oAuthRequest = OAuthRequest.ForAccessToken(_consumerKey, _secret, oAuthTempTokens.TemporaryToken, oAuthTempTokens.TokenSecret, verificationToken);
+            oAuthRequest.RequestUrl = _restUrlProvider.AccessToken;
 
-            var auth = oauthClient.GetAuthorizationHeader();
-            var request = (HttpWebRequest)WebRequest.Create(oauthClient.RequestUrl);
-
-            request.Headers.Add("Authorization", auth);
-            request.Method = "GET";
+            var authHeader = oAuthRequest.GetAuthorizationHeader();
+            var request = _webRequestFactory.Create(oAuthRequest.RequestUrl, WebRequestMethods.Http.Get, authHeader);
 
             var result = GetResponseContent(request);
 
             var tokens = GetTokens(result).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
-            return tokens["oauth_token"];
-        }
+            var accessToken = tokens["oauth_token"];
 
-        public string CreateAuthenticationHeader(string url, string authToken, string authTokenSecret, string method = "GET")
-        {
-            var oauthClient = OAuthRequest.ForProtectedResource(method, _consumerKey, _secret, authToken, authTokenSecret);
-            oauthClient.RequestUrl = url;
-            oauthClient.Realm = url;
-            return oauthClient.GetAuthorizationHeader();
+            return new OAuthTokens
+            {
+                ConsumerKey = _consumerKey,
+                ConsumerSecret = _secret,
+                Token = accessToken,
+                TokenSecret = oAuthTempTokens.TokenSecret
+            };
         }
 
         private string GetResponseContent(HttpWebRequest request)

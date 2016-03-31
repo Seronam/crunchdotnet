@@ -2,8 +2,8 @@
 {
     public interface IOAuthWorkflow
     {
-        OAuthAccessResponse RequestAccess();
+        OAuthTempTokens InitiateAccessRequest();
 
-        string GetAccessToken(string verificationToken, OAuthAccessResponse oAuthAccessResponse);
+        OAuthTokens RequestAccess(string verificationToken, OAuthTempTokens oAuthTempTokens);
     }
 }

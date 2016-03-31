@@ -51,7 +51,8 @@
     <Compile Include="Authorization\CrunchRestUrlProvider.cs" />
     <Compile Include="Authorization\IOAuthWorkflow.cs" />
     <Compile Include="Authorization\IRestUrlProvider.cs" />
-    <Compile Include="Authorization\OAuthAccessResponse.cs" />
+    <Compile Include="Authorization\OAuthTempTokens.cs" />
+    <Compile Include="Authorization\OAuthTokensExtensions.cs" />
     <Compile Include="Authorization\OAuthWorkflow.cs" />
     <Compile Include="CrunchEnvironment.cs" />
     <Compile Include="Model\Account.cs" />
@@ -90,7 +91,10 @@
     <Compile Include="Model\SalesInvoices.cs" />
     <Compile Include="Model\Supplier.cs" />
     <Compile Include="Model\Suppliers.cs" />
+    <Compile Include="Authorization\OAuthTokens.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\HttpWebRequestFactory.cs" />
+    <Compile Include="Utilities\IHttpWebRequestFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
