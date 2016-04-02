@@ -2,8 +2,64 @@
 param(
         [switch] $Build,
         [switch] $Package,
+        [string] $SemanticVersion = $null,
         [string] $Configuration = "Release"
      )
+
+if($SemanticVersion)
+{
+    $assemblyVersionFile = "$PSScriptRoot\src\Crunch.DotNet\Properties\AssemblyInfo.cs"
+
+    $content = Get-Content -Path $assemblyVersionFile
+    $output = @()
+
+    $version = $SemanticVersion.Split('-')[0]
+    $altered = $false
+
+    foreach($line in $content)
+    {
+        if($line -match "^\[assembly: AssemblyVersion")
+        {
+            $assemblyVersion = "[assembly: AssemblyVersion(""$version"")]"
+
+            f($line -ne $assemblyVersion)
+            {
+                $output += $assemblyVersion
+                $altered = $true
+            }
+        }
+        elseif($line -match "^\[assembly: AssemblyFileVersion")
+        {
+            $assemblyFileVersion = "[assembly: AssemblyFileVersion(""$version"")]"
+
+            f($line -ne $assemblyFileVersion)
+            {
+                $output += $assemblyFileVersion
+                $altered = $true
+            }
+        }
+        elseif($line -match "^\[assembly: AssemblyInformationalVersion")
+        {
+            $assemblyInformationalVersion = "[assembly: AssemblyInformationalVersion(""$SemanticVersion"")]"
+
+            if($line -ne $assemblyInformationalVersion)
+            {
+                $output += $assemblyInformationalVersion
+                $altered = $true
+            }
+        }
+        else
+        {
+            $output += $line
+        }
+    }
+
+    if($altered)
+    {
+        Set-Content -Path $assemblyVersionFile -Value $output
+    }
+
+}
 
 if($Build)
 {
@@ -31,6 +87,7 @@ if($Package)
 
     $nuget = Get-ChildItem -Path $PSScriptRoot -Filter 'nuget.exe' -Recurse
     $packCommand = "$($nuget.FullName) pack ""$project"" -OutputDirectory ""$outputDirectory"""
+
     #$packCommand
     iex $packCommand
 }
