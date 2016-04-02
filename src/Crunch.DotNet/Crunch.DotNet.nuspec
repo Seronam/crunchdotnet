@@ -10,7 +10,8 @@
 At the moment awaiting testing of the 'write' side of the api, it has only been tested with the read side.  
 
 *** THIS IS NOT AN OFFICIAL API from Crunch.co.uk although they have been made aware of it's existance ***
-    You will need to engage with the Crunch developer program (https://developer.crunch.co.uk/) in order to use this API
+
+You will need to engage with the Crunch developer program (https://developer.crunch.co.uk/) in order to use this API
     </description>
     <language>en-US</language>
     <projectUrl>https://github.com/Seronam/crunchdotnet</projectUrl>
