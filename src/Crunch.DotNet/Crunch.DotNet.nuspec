@@ -1,0 +1,14 @@
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Crunch.DotNet</id>
+    <version>$version$</version>
+    <authors>davocolemanseronam, davojc</authors>
+    <description>Provides a simple .NET api for access the REST API of accountancy firm Crunch.co.uk </description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/Seronam/crunchdotnet</projectUrl>
+    <licenseUrl>https://github.com/Seronam/crunchdotnet/blob/master/LICENSE</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/Seronam/crunchdotnet/master/logo.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>crunch accounting api rest</tags>
+  </metadata>
+</package>
