@@ -1,3 +1,5 @@
+using Crunch.DotNet.Model;
+
 namespace Crunch.DotNet.Tests.Unit.Model
 {
     public class SalesInvoicesTests : SimpleDeserialiseTests<SalesInvoices>

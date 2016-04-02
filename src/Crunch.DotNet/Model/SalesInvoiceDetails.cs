@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class SalesInvoiceDetails
     {

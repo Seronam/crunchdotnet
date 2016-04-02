@@ -1,4 +1,6 @@
-﻿namespace Crunch.DotNet.Tests.Unit.Model
+﻿using Crunch.DotNet.Model;
+
+namespace Crunch.DotNet.Tests.Unit.Model
 {
     public class ExpenseGroupsTests : SimpleDeserialiseTests<ExpenseGroups>
     {

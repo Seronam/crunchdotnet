@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class Directors
     {
@@ -9,6 +9,6 @@ namespace Crunch.DotNet
         public int Count { get; set; }
 
         [JsonProperty("director")]
-        public IList<Director> Director { get; set; } 
+        public List<Director> List { get; set; } 
     }
 }

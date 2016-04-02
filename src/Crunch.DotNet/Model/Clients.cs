@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class Clients
     {
@@ -17,6 +17,6 @@ namespace Crunch.DotNet
         public int FirstResult { get; set; }
 
         [JsonProperty("client")]
-        public IList<Client> List { get; set; }
+        public List<Client> List { get; set; }
     }
 }

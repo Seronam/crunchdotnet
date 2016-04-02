@@ -15,6 +15,11 @@ namespace Crunch.DotNet.Authorization
         private readonly IRestUrlProvider _restUrlProvider;
         private readonly IHttpWebRequestFactory _webRequestFactory;
 
+        public OAuthWorkflow(string consumerKey, string secret, IRestUrlProvider restUrlProvider)
+            : this(consumerKey, secret, restUrlProvider, new HttpWebRequestFactory())
+        {
+        }
+
         public OAuthWorkflow(string consumerKey, string secret, IRestUrlProvider restUrlProvider, IHttpWebRequestFactory webRequestFactory)
         {
             _consumerKey = consumerKey;

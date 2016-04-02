@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Crunch.DotNet</RootNamespace>
     <AssemblyName>Crunch.DotNet</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,7 +55,9 @@
     <Compile Include="Authorization\OAuthTempTokens.cs" />
     <Compile Include="Authorization\OAuthTokensExtensions.cs" />
     <Compile Include="Authorization\OAuthWorkflow.cs" />
+    <Compile Include="CrunchClient.cs" />
     <Compile Include="CrunchEnvironment.cs" />
+    <Compile Include="ICrunchClient.cs" />
     <Compile Include="Model\Account.cs" />
     <Compile Include="Model\Accounts.cs" />
     <Compile Include="Model\Address.cs" />
@@ -93,10 +96,30 @@
     <Compile Include="Model\Suppliers.cs" />
     <Compile Include="Authorization\OAuthTokens.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rest\HttpWebRequestExtensions.cs" />
+    <Compile Include="Rest\IResource.cs" />
+    <Compile Include="Rest\JsonRestRequest.cs" />
+    <Compile Include="Rest\Resources\AccountsResource.cs" />
+    <Compile Include="Rest\Resources\ClientPaymentsResource.cs" />
+    <Compile Include="Rest\Resources\ClientsResource.cs" />
+    <Compile Include="Rest\Resources\DirectorsResource.cs" />
+    <Compile Include="Rest\Resources\ExpensesResource.cs" />
+    <Compile Include="Rest\Resources\ExpenseTypesResource.cs" />
+    <Compile Include="Rest\Resources\SalesInvoicesResource.cs" />
+    <Compile Include="Rest\Resources\IResourceFactory.cs" />
+    <Compile Include="Rest\Resources\PaymentMethodsResource.cs" />
+    <Compile Include="Rest\Resources\ResourceFactory.cs" />
+    <Compile Include="Rest\Resources\SuppliersResource.cs" />
+    <Compile Include="Utilities\AcceptAttribute.cs" />
+    <Compile Include="Utilities\AcceptAttributeExtensions.cs" />
+    <Compile Include="Utilities\ContentType.cs" />
     <Compile Include="Utilities\HttpWebRequestFactory.cs" />
     <Compile Include="Utilities\IHttpWebRequestFactory.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="GetAccessToken.ps1">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />

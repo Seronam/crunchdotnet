@@ -1,7 +1,6 @@
-using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class ClientPayment
     {

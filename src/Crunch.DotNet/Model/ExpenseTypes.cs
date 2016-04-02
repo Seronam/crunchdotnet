@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
-    public class ExpenseTypes
+    internal class ExpenseTypes
     {
         [JsonProperty("count")]
         public int Count { get; set; }
 
         [JsonProperty("expenseGroup")]
-        public IList<ExpenseGroup> ExpenseGroup { get; set; } 
+        public List<ExpenseGroup> ExpenseGroup { get; set; } 
     }
 }

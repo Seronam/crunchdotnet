@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class Expenses
     {
         [JsonProperty("expense")]
-        public IList<Expense> Expense { get; set; }
+        public List<Expense> List { get; set; }
     }
 }

@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Crunch.DotNet
+namespace Crunch.DotNet.Model
 {
     public class Suppliers
     {
         [JsonProperty("supplier")]
-        public IList<Supplier> Supplier { get; set; }
+        public List<Supplier> List { get; set; }
     }
 }
