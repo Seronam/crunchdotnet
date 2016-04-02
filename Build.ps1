@@ -22,20 +22,28 @@ if($SemanticVersion)
         {
             $assemblyVersion = "[assembly: AssemblyVersion(""$version"")]"
 
-            f($line -ne $assemblyVersion)
+            if($line -ne $assemblyVersion)
             {
                 $output += $assemblyVersion
                 $altered = $true
+            }
+            else
+            {
+                $output += $line
             }
         }
         elseif($line -match "^\[assembly: AssemblyFileVersion")
         {
             $assemblyFileVersion = "[assembly: AssemblyFileVersion(""$version"")]"
 
-            f($line -ne $assemblyFileVersion)
+            if($line -ne $assemblyFileVersion)
             {
                 $output += $assemblyFileVersion
                 $altered = $true
+            }
+            else
+            {
+                $output += $line
             }
         }
         elseif($line -match "^\[assembly: AssemblyInformationalVersion")
@@ -47,6 +55,10 @@ if($SemanticVersion)
                 $output += $assemblyInformationalVersion
                 $altered = $true
             }
+            else
+            {
+                $output += $line
+            }
         }
         else
         {
@@ -56,7 +68,7 @@ if($SemanticVersion)
 
     if($altered)
     {
-        Set-Content -Path $assemblyVersionFile -Value $output
+        Set-Content -Path $assemblyVersionFile -Value $output -Encoding UTF8
     }
 
 }
