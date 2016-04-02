@@ -2,76 +2,90 @@
 param(
         [switch] $Build,
         [switch] $Package,
-        [string] $SemanticVersion = $null,
+        [string] $SemanticName = $null,
         [string] $Configuration = "Release"
      )
 
-if($SemanticVersion)
+$describe = iex "git describe"
+
+$versionSplit = $describe.Split('-')
+
+$version = "$($versionSplit[0]).$($versionSplit[1])"
+
+if($SemanticName)
 {
-    $assemblyVersionFile = "$PSScriptRoot\src\Crunch.DotNet\Properties\AssemblyInfo.cs"
+    $semanticVersion = "$version-$SemanticName"
+    $nugetVersion = "$($versionSplit[0])-$SemanticName"
+}
+else
+{
+    $semanticVersion = $version
+    $nugetVersion = $versionSplit[0]
+}
 
-    $content = Get-Content -Path $assemblyVersionFile
-    $output = @()
+#region Set AssemblyInfo version if necessary
+$assemblyVersionFile = "$PSScriptRoot\src\Crunch.DotNet\Properties\AssemblyInfo.cs"
 
-    $version = $SemanticVersion.Split('-')[0]
-    $altered = $false
+$content = Get-Content -Path $assemblyVersionFile
+$output = @()
+$altered = $false
 
-    foreach($line in $content)
+foreach($line in $content)
+{
+    if($line -match "^\[assembly: AssemblyVersion")
     {
-        if($line -match "^\[assembly: AssemblyVersion")
-        {
-            $assemblyVersion = "[assembly: AssemblyVersion(""$version"")]"
+        $assemblyVersion = "[assembly: AssemblyVersion(""$version"")]"
 
-            if($line -ne $assemblyVersion)
-            {
-                $output += $assemblyVersion
-                $altered = $true
-            }
-            else
-            {
-                $output += $line
-            }
-        }
-        elseif($line -match "^\[assembly: AssemblyFileVersion")
+        if($line -ne $assemblyVersion)
         {
-            $assemblyFileVersion = "[assembly: AssemblyFileVersion(""$version"")]"
-
-            if($line -ne $assemblyFileVersion)
-            {
-                $output += $assemblyFileVersion
-                $altered = $true
-            }
-            else
-            {
-                $output += $line
-            }
-        }
-        elseif($line -match "^\[assembly: AssemblyInformationalVersion")
-        {
-            $assemblyInformationalVersion = "[assembly: AssemblyInformationalVersion(""$SemanticVersion"")]"
-
-            if($line -ne $assemblyInformationalVersion)
-            {
-                $output += $assemblyInformationalVersion
-                $altered = $true
-            }
-            else
-            {
-                $output += $line
-            }
+            $output += $assemblyVersion
+            $altered = $true
         }
         else
         {
             $output += $line
         }
     }
-
-    if($altered)
+    elseif($line -match "^\[assembly: AssemblyFileVersion")
     {
-        Set-Content -Path $assemblyVersionFile -Value $output -Encoding UTF8
-    }
+        $assemblyFileVersion = "[assembly: AssemblyFileVersion(""$version"")]"
 
+        if($line -ne $assemblyFileVersion)
+        {
+            $output += $assemblyFileVersion
+            $altered = $true
+        }
+        else
+        {
+            $output += $line
+        }
+    }
+    elseif($line -match "^\[assembly: AssemblyInformationalVersion")
+    {
+        $assemblyInformationalVersion = "[assembly: AssemblyInformationalVersion(""$semanticVersion"")]"
+
+        if($line -ne $assemblyInformationalVersion)
+        {
+            $output += $assemblyInformationalVersion
+            $altered = $true
+        }
+        else
+        {
+            $output += $line
+        }
+    }
+    else
+    {
+        $output += $line
+    }
 }
+
+if($altered)
+{
+    Set-Content -Path $assemblyVersionFile -Value $output -Encoding UTF8
+}
+#endregion
+
 
 if($Build)
 {
@@ -98,7 +112,7 @@ if($Package)
     $project = "$PSScriptRoot\src\Crunch.DotNet\Crunch.DotNet.csproj"
 
     $nuget = Get-ChildItem -Path $PSScriptRoot -Filter 'nuget.exe' -Recurse
-    $packCommand = "$($nuget.FullName) pack ""$project"" -OutputDirectory ""$outputDirectory"""
+    $packCommand = "$($nuget.FullName) pack ""$project"" -OutputDirectory ""$outputDirectory"" -Version $nugetVersion"
 
     #$packCommand
     iex $packCommand
