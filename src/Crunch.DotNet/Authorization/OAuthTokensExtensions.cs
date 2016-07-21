@@ -6,9 +6,19 @@ namespace Crunch.DotNet.Authorization
     {
         public static string GetAuthorisationHeader(this OAuthTokens tokens, string url, string restMethod, string realm = null)
         {
-            var oauthClient = OAuthRequest.ForProtectedResource(restMethod, tokens.ConsumerKey, tokens.ConsumerSecret, tokens.Token, tokens.TokenSecret);
-            oauthClient.RequestUrl = url;
-            oauthClient.Realm = realm;
+            var oauthClient = new OAuthRequest
+            {
+                Method = restMethod,
+                Type = OAuthRequestType.ProtectedResource,
+                SignatureMethod = OAuthSignatureMethod.HmacSha1,
+                ConsumerKey = tokens.ConsumerKey,
+                ConsumerSecret = tokens.ConsumerSecret,
+                Token = tokens.Token,
+                TokenSecret = tokens.TokenSecret,
+                RequestUrl = url,
+                Realm = realm
+            };
+
             return oauthClient.GetAuthorizationHeader();
         }
     }
