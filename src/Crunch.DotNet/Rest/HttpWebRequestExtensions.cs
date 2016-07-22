@@ -23,10 +23,11 @@ namespace Crunch.DotNet.Rest
             }
         }
 
-        public static void PutOrPost(this HttpWebRequest httpWebRequest, string content)
+        public static string PutOrPost(this HttpWebRequest httpWebRequest, string content, string method)
         {
             var body = Encoding.UTF8.GetBytes(content);
             httpWebRequest.ContentLength = body.Length;
+            httpWebRequest.Method = method;
 
             using (var requestStream = httpWebRequest.GetRequestStream())
             {
@@ -36,6 +37,15 @@ namespace Crunch.DotNet.Rest
             using (var response = (HttpWebResponse)httpWebRequest.GetResponse())
             using (var responseStream = response.GetResponseStream())
             {
+                if (responseStream == null)
+                {
+                    throw new WebException("Server returned no response.");
+                }
+
+                using (var reader = new StreamReader(responseStream))
+                {
+                    return reader.ReadToEnd();
+                }
             }
         }
     }

@@ -20,9 +20,9 @@ namespace Crunch.DotNet.Rest.Resources
             return invoices.List;
         }
 
-        public void AddOrUpdate(SalesInvoice item)
+        public SalesInvoice AddOrUpdate(SalesInvoice item)
         {
-            _rest.AddOrUpdate(item, item.SalesInvoiceId);
+            return _rest.AddOrUpdate(item, item.SalesInvoiceId);
         }
     }
 }

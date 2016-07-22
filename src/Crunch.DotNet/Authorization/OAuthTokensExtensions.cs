@@ -5,8 +5,8 @@ namespace Crunch.DotNet.Authorization
     public static class OAuthTokensExtensions
     {
         public static string GetAuthorisationHeader(this OAuthTokens tokens, string url, string restMethod, string realm = null)
-        {
-            var oauthClient = new OAuthRequest
+        {            
+            OAuthRequest oauthClient = new OAuthRequest
             {
                 Method = restMethod,
                 Type = OAuthRequestType.ProtectedResource,

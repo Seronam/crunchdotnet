@@ -2,6 +2,8 @@
 using Crunch.DotNet.Authorization;
 using Crunch.DotNet.Utilities;
 using Newtonsoft.Json;
+using System.Text;
+using System;
 
 namespace Crunch.DotNet.Rest
 {
@@ -18,7 +20,7 @@ namespace Crunch.DotNet.Rest
             _resourceUrl = restUrlProvider.Rest + resource;
         }
 
-        public void AddOrUpdate<T>(T item, string id = null)
+        public T AddOrUpdate<T>(T item, string id = null) where T : class
         {
             var existing = !string.IsNullOrWhiteSpace(id) && Get<T>(id) != null;
 
@@ -36,53 +38,85 @@ namespace Crunch.DotNet.Rest
                 method = WebRequestMethods.Http.Post;
             }
 
-            AddOrUpdate(item, method, url);
+            return AddOrUpdate(item, method, url);
         }
 
-        public void AddOrUpdate<T>(T item, long id)
+        public T AddOrUpdate<T>(T item, long id) where T : class
         {
-            AddOrUpdate(item, id > 0 ? id.ToString() : null);
+            return AddOrUpdate(item, id > 0 ? id.ToString() : null);
         }
 
-        public T Get<T>()
+        public T Get<T>() where T : class
         {
             var url = GetResourceUrl();
 
             return GetFromUrl<T>(url);
         }
 
-        public T Get<T>(long? id)
+        public T Get<T>(long? id) where T : class
         {
             var url = GetResourceUrl(id?.ToString());
 
             return GetFromUrl<T>(url);
         }
 
-        public T Get<T>(string id)
+        public T Get<T>(string id) where T : class
         {
             var url = GetResourceUrl(id);
 
             return GetFromUrl<T>(url);
         }
 
-        private T GetFromUrl<T>(string url)
+        private T GetFromUrl<T>(string url) where T : class
         {
             var authHeader = _tokens.GetAuthorisationHeader(url, WebRequestMethods.Http.Get);
             var request = _webRequestFactory.Create(url, WebRequestMethods.Http.Get, authHeader);
 
-            var result = request.Call();
+            string result = "";
+            try
+            {
+                result = request.Call();
+            }
+            catch(WebException we)
+            {
+                HttpWebResponse errorResponse = we.Response as HttpWebResponse;
+                if (errorResponse.StatusCode == HttpStatusCode.NotFound)
+                {
+                    return null;
+                }
+                throw;
+            }
 
             return JsonConvert.DeserializeObject<T>(result);
         }
 
-        private void AddOrUpdate<T>(T item, string method, string url)
+        private T AddOrUpdate<T>(T item, string method, string url) where T : class
         {
             var authHeader = _tokens.GetAuthorisationHeader(url, method);
             var request = _webRequestFactory.Create(url, method, authHeader);
 
             var json = JsonConvert.SerializeObject(item);
 
-            request.PutOrPost(json);
+            try
+            {
+                var result = request.PutOrPost(json, method);
+
+                return JsonConvert.DeserializeObject<T>(result);
+            }
+            catch (WebException we)
+            {
+                using (var reader = new System.IO.StreamReader(we.Response.GetResponseStream(), Encoding.UTF8))
+                {
+                    var responseText = reader.ReadToEnd();
+                    if (!string.IsNullOrEmpty(responseText))
+                    {
+                        //Give the user the response body if we have it, the Crunch API often returns useful diagnostic information
+                        throw new Exception(responseText, we);
+                    }
+                }
+
+                throw;
+            }
         }
 
         private string GetResourceUrl(string id = null)

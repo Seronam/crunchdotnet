@@ -2,22 +2,17 @@ using System.Collections.Generic;
 
 namespace Crunch.DotNet.Rest
 {
-    public interface IResource<T> : IReadOnlyResource<T>
+    public interface IResource<T> : IReadOnlyResource<T> where T : class
     {
-        void AddOrUpdate(T item);
+        T AddOrUpdate(T item);
     }
 
-    public interface IReadOnlyResource<out T>
+    public interface IReadOnlyResource<out T> where T : class
     {
         IReadOnlyList<T> Get();
     }
 
-    public interface ISingleResource<T> : IReadOnlySingleResource<T>
-    {
-        void AddOrUpdate(T item);
-    }
-
-    public interface IReadOnlySingleResource<out T>
+    public interface IReadOnlySingleResource<out T> where T : class
     {
         T Get();
     }

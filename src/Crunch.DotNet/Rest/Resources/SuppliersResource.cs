@@ -7,7 +7,7 @@ namespace Crunch.DotNet.Rest.Resources
 {
     internal class SuppliersResource : IResource<Supplier>
     {
-        private readonly JsonRestRequest _rest;
+        readonly JsonRestRequest _rest;
 
         public SuppliersResource(IRestUrlProvider restUrlProvider, OAuthTokens tokens, IHttpWebRequestFactory webRequestFactory)
         {
@@ -20,9 +20,9 @@ namespace Crunch.DotNet.Rest.Resources
             return suppliers.List;
         }
 
-        public void AddOrUpdate(Supplier item)
+        public Supplier AddOrUpdate(Supplier item)
         {
-            _rest.AddOrUpdate(item, item.SupplierId);
+            return _rest.AddOrUpdate(item, item.SupplierId);
         }
     }
 }

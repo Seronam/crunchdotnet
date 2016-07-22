@@ -20,9 +20,9 @@ namespace Crunch.DotNet.Rest.Resources
             return expenses.List;
         }
 
-        public void AddOrUpdate(Expense item)
+        public Expense AddOrUpdate(Expense item)
         {
-            _rest.AddOrUpdate(item, item.ExpenseId);
+            return _rest.AddOrUpdate(item, item.ExpenseId);
         }
     }
 }
