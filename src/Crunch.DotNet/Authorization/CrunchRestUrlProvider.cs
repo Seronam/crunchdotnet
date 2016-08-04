@@ -9,7 +9,7 @@
             _target = target;
         }
 
-        public string Realm => $"https://{_target.ToString().ToLowerInvariant()}.crunch.co.uk";
+        public string Realm => $"https://{(_target == CrunchEnvironment.Live ? "app" : _target.ToString().ToLowerInvariant())}.crunch.co.uk";
 
         public string Rest => $"https://{(_target == CrunchEnvironment.Live ? "api" : "sandbox.api")}.crunch.co.uk/rest/v2/";
 

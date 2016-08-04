@@ -20,9 +20,9 @@ namespace Crunch.DotNet.Rest.Resources
             return clients.List;
         }
 
-        public void AddOrUpdate(Client item)
+        public Client AddOrUpdate(Client item)
         {
-            _rest.AddOrUpdate(item, item.ClientId);
+            return _rest.AddOrUpdate(item, item.ClientId);
         }
     }
 }
